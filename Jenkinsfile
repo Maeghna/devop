@@ -9,7 +9,7 @@ pipeline {
         stage('Clone Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://https://github.com/Maeghna/devop'
+                    url: 'https://github.com/Maeghna/devop'
             }
         }
 
